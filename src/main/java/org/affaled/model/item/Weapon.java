@@ -8,7 +8,7 @@ public class Weapon extends Equipment {
     protected int slotsRequired;
     protected boolean isHeavy;
 
-    protected Weapon(String name, String description, int damage, WeaponType type, int slotsRequired, boolean isHeavy) {
+    public Weapon(String name, String description, int damage, WeaponType type, int slotsRequired, boolean isHeavy) {
         super(name, description);
 
         this.damage = damage;
